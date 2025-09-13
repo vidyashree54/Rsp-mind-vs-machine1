@@ -115,5 +115,6 @@ You chose: rock
 Computer chose: scissors
 You win!
 
+![image alt}(https://github.com/vidyashree54/Rsp-mind-vs-machine1/blob/6fe8400793801ddd578262fa1a17d16af2c642f2/Screenshot%202025-09-13%20005854.png)
 
 
