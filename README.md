@@ -6,15 +6,15 @@ This project is a GUI-based Rock-Paper-Scissors game built using Python and Tkin
 🧩 **Core Features in This Project**
 🎮 1. **Game Mechanics (Rock-Paper-Scissors)**
           User chooses a move: rock, paper, or scissors.
-          Computers randomly chooses a move.
+          Computers randomly choose a move.
           Game logic determines the winner based on standard RPS rules.
 
 📦 2. **CRUD Functionality**
-      Action	Description
-         Create	When a user plays a game, a new record is created and stored in memory (game_history).
-         Read	All games are displayed in a text area showing ID, user move, computer move, and winner.
-         Update	Users can update the move for a specific game ID. The winner is recalculated based on the old computer move.
-         Delete	Users can delete a game by its ID. The game is removed from the history list.
+         Action	Description
+         Create:	When a user plays a game, a new record is created and stored in memory (game_history).
+         Read:	All games are displayed in a text area showing ID, user move, computer move, and winner.
+         Update:	Users can update the move for a specific game ID. The winner is recalculated based on the old computer move.
+         Delete:	Users can delete a game by its ID. The game is removed from the history list.
          
 🧠 3. **Game Logic**
          The get_winner(user, computer) function determines the outcome.
@@ -97,7 +97,6 @@ def play(user_choice):
                         f"You chose: {user_choice}\n"
                         f"Computer chose: {computer_choice}\n"
                         f"{result}")
-
 # GUI setup
 root = tk.Tk()
 root.title("Rock Paper Scissors")
